@@ -28,4 +28,4 @@ let requestObj = URLRequest(url: url! as URL)
 webView.loadRequest(requestObj)
 ```
 
-This will be great help for looking specific to clean content of UIWebView.
+This will be great help for looking specific to clean content of UIWebView. [Here](https://www.logisticinfotech.com/blog/clean-uiwebview-content) you find more detail about this.
