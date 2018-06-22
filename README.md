@@ -10,6 +10,7 @@ Instead we can easily accomplish this by just single line of Javascription code.
 
 Here is code for that for Objective C and Swift both.
 
+Objective C
 ```
 NSString *urlString = @”https://www.google.com/”;
 NSURL *url = [NSURL URLWithString:urlString];
@@ -18,3 +19,13 @@ NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
 
 [_webView loadRequest:urlRequest];
 ```
+
+Swift 
+
+```
+let url = URL(string: “about:blank”)
+let requestObj = URLRequest(url: url! as URL)
+webView.loadRequest(requestObj)
+```
+
+This will be great help for looking specific to clean content of UIWebView.
