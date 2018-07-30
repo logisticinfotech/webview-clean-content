@@ -8,6 +8,8 @@ Generally to do this we will load blank html page without any content but it wil
 
 Instead we can easily accomplish this by just single line of Javascription code. 
 
+You can find step by step guide from [this blog](https://www.logisticinfotech.com/blog/clean-uiwebview-content)
+
 Here is code for that for Objective C and Swift both.
 
 Objective C
@@ -27,5 +29,3 @@ let url = URL(string: “about:blank”)
 let requestObj = URLRequest(url: url! as URL)
 webView.loadRequest(requestObj)
 ```
-
-This will be great help for looking specific to clean content of UIWebView. [Here](https://www.logisticinfotech.com/blog/clean-uiwebview-content) you find more detail about this.
